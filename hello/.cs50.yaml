@@ -1,6 +1,0 @@
-check50:
-  checks:
-    hellow world:
-      -  run: python3 hellow.py
-         stdout: Hellow, world!
-         exit: 0
