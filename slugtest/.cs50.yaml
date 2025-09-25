@@ -1,0 +1,5 @@
+checks:
+  - desc: "always passes"
+    run: echo ok
+    stdout: "^ok\\n?$"
+    exit: 0
