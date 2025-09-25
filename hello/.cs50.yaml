@@ -1,0 +1,9 @@
+checks:
+  - desc: "hello.py exists"
+    run: test -f hello.py
+    exit: 0
+
+  - desc: "prints 'Hello, world!'"
+    run: python3 hello.py
+    stdout: "^Hello, world!\\n?$"
+    exit: 0
